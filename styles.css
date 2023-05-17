@@ -1,0 +1,52 @@
+body{
+   color:whitesmoke;
+   text-align: left;
+   background-image: url(degradado.jpg);
+}
+
+h2{
+    background-color: blue;
+    font-size: 30px;
+    color: azure;
+    padding: 5px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+  }
+.mi-id{
+    color: aqua;
+    font-size: medium;
+    background-color: red;
+  } 
+#mi-titulo{
+    text-align: center;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+h1{
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border-color: black;
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
